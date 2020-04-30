@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Gustavo Alves - Desenvolvedor Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gustavo Alves da Silva" />
+    <meta name="description" content="Este é um exemplo fantástico e mangnânimo de um site bem legal feito por Gustavo Alves da Silva" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" />
+    <link rel="stylesheet" href="fonts/css/all.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logotipo da BeeMind" /></a>
+            </div>
+            <!-- logo -->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li class="selected"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- menu-deskop -->
+            <nav class="menu-mobile">
+                <h2><i class="fa fa-bars"></i></h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li class="selected"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- menu-mobile -->
+            <div class="clear"></div>
+        </div>
+        <!-- container -->
+    </header>
+
+    <section class="title-page" style="background-image: url(images/capa.png)">
+        <div class="overlay__title-page"></div>
+        <!-- overlay__title-page -->
+        <div class="container">
+            <h2 class="wow bounceInLeft">Contato</h2>
+            <p class="wow bounceInLeft">
+                Entre em contato para esclarecer dúvidas ou pedir orçamentos. É um enorme prazer atendê-lo(a).
+            </p>
+        </div>
+        <!-- container -->
+    </section>
+    <!-- title-page -->
+
+    <section class="contato">
+        <div class="container">
+            <div class="line-text">
+                <div style="width:75px;"></div>
+                <h2>Contato</h2>
+            </div>
+            <!-- line-text -->
+            <form action="#" class="wow bounceInLeft">
+                <div class="input-wrapper w100">
+                    <input type="text" placeholder="Nome*" name="nome" id="nome" required />
+                </div>
+                <!-- input-wrapper -->
+                <div class="input-wrapper w50">
+                    <input type="email" placeholder="E-mail*" name="email" id="email" required />
+                </div>
+                <!-- input-wrapper -->
+                <div class="input-wrapper w50">
+                    <input type="tel" placeholder="Telefone" name="telefone" id="telefone" required />
+                </div>
+                <!-- input-wrapper -->
+                <div class="input-wrapper w100">
+                    <textarea placeholder="Mensagem*" required></textarea>
+                </div>
+                <!-- input-wrapper -->
+                <div class="input-wrapper w100">
+                    <input class="btn-contato" type="submit" value="Enviar" />
+                </div>
+                <!-- input-wrapper -->
+                <div class="clear"></div>
+            </form>
+        </div>
+        <!-- container -->
+    </section>
+    <!-- contato -->
+
+    <footer class="footer">
+        <section class="footer-links">
+            <div class="container">
+                <div class="endereco">
+                    <h5>Aonde Estamos</h5>
+                    <p>Rua dos Goivos, 19 - CEP: 08544-100</p>
+                    <p>(11) 99653-1308</p>
+                </div>
+                <!-- endereco -->
+                <div class="links">
+                    <h5>Links Úteis</h5>
+                    <p><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+                </div>
+                <!-- links -->
+                <div class="redes">
+                    <h5>Conecte-se Conosco</h5>
+                    <p><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-instagram"></i></a></p>
+                </div>
+                <!-- redes -->
+            </div>
+            <!-- container -->
+        </section>
+        <!-- footer-links -->
+        <section class="footer-direitos">
+            <div class="container">
+                <p>Todos os direitos reservados</p>
+            </div>
+            <!-- container -->
+        </section>
+        <!-- footer-direitos -->
+    </footer>
+    <!-- footer -->
+    <script src="fonts/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 100
+        });
+
+        wow.init();
+    </script>
+</body>
+
+</html>
