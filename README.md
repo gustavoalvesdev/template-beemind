@@ -3,6 +3,6 @@
 
 Beemind is a simple and lightweight HTML5 template for building websites such as portfolio pages.
 
-![Screenshot](https://github.com/gustavoalvesdev/template-beemind/screenshots/1.PNG)
-![Screenshot](https://github.com/gustavoalvesdev/template-beemind/screenshots/2.PNG)
-![Screenshot](https://github.com/gustavoalvesdev/template-beemind/screenshots/3.PNG)
+![Screenshot](https://github.com/gustavoalvesdev/template-beemind/blob/master/screenshots/1.PNG)
+![Screenshot](https://github.com/gustavoalvesdev/template-beemind/blob/master/screenshots/2.PNG)
+![Screenshot](https://github.com/gustavoalvesdev/template-beemind/blob/master/screenshots/3.PNG)
