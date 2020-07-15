@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="fonts/css/all.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body>
@@ -65,29 +66,14 @@
                 <h2>Serviços</h2>
             </div>
             <!-- line-text -->
-            <div class="icones-diferenciais">
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-laptop-code"></i></h2>
-                    <h3>Websites</h3>
-                    <p>
-                        Websites, landing pages, lojas virtuais, portais, páginas de captura e intranets.
+            <div class="icones-diferenciais" id="services">
+
+                <div v-for="service in allServices()" class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i :class="service.icon"></i></h2>
+                    <h3 v-html="service.title"></h3>
+                    <p v-html="service.description"></p>
                 </div>
                 <!-- box-icone-single -->
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-address-card"></i></h2>
-                    <h3>Sistemas</h3>
-                    <p>
-                        Sistemas comerciais para cadastro de clientes, controle de estoque, gestão de funcionários, ERPs, integração com NF-e (Nota Fiscal Eletrônica).
-                </div>
-                <!-- box-icone-single -->
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-mobile-alt"></i></i>
-                    </h2>
-                    <h3>Aplicativos</h3>
-                    <p>
-                        Aplicativos de delivery, compras, guias comerciais, catálogos de venda, galeria de fotos, etc
-                    </p>
-                </div>
                 <div class="clear"></div>
             </div>
             <!-- icones-diferenciais -->
@@ -296,7 +282,7 @@
 
         wow.init();
     </script>
-
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
