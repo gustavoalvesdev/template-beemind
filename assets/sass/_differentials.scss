@@ -1,0 +1,27 @@
+.diferenciais {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.icones-diferenciais { margin-top: 30px; }
+
+.box-icone-single {
+	min-height: 280px;
+    float: left;
+    width: 33.3333%;
+    border-left: 20px solid #fff;
+	border-right: 20px solid #fff;
+    margin-bottom: 0;
+    h2 {
+        margin-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        display: inline-block;
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+        background-color: $main-color;
+        border-radius: 50px;
+    }
+}

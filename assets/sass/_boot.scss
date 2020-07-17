@@ -1,0 +1,47 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+.line-text {
+    display: inline-block;
+    position: relative;
+    color: $line-text-color;
+    div {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 3px;
+        background: $line-text-color;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 27px;
+    }
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.wow {
+    visibility: hidden;
+}

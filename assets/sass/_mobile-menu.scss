@@ -1,0 +1,27 @@
+.menu-mobile {
+    display: none;
+    float: right;
+    h2 { cursor: pointer; }
+    ul {
+        display: none;
+        width: 100%;
+        background: white;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        z-index: 999;
+        text-align: center;
+    }
+    li {
+        padding: 8px 0;
+        border-bottom: 1px solid black;
+    }
+    .selected { background-color: rgb(225, 225, 225); }
+    a {
+        display: block;
+        color: $menu-color;
+        text-decoration: none;
+    }
+}
+
+svg:not(:root).svg-inline--fa { margin-top: 14px; }

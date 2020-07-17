@@ -1,0 +1,21 @@
+.menu-desktop {
+    float: right;
+    ul {
+        position: relative;
+        top: 20px;
+    }
+    li {
+        padding: 0 10px;
+        font-weight: lighter;
+        display: inline-block;
+    }
+    li.selected {
+        font-weight: normal;
+        text-decoration: underline;
+    }
+    a {
+        color: $menu-color;
+        text-decoration: none;
+        &:hover { text-decoration: underline; }
+    }
+}
