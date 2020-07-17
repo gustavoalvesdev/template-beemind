@@ -1,5 +1,5 @@
 let services = new Vue({
-	el: "#services",
+	el: '#services',
 	methods: {
 		allServices: () => {
 			return [
@@ -20,5 +20,12 @@ let services = new Vue({
 				}
 			]
 		}
+	}
+})
+
+let about = new Vue({
+	el: '#about',
+	data: {
+		about: 'Sou especialista no desenvolvimento de Websites responsivos (se adaptam a qualquer dispositivo), com painel administrativo para que você ou sua equipe possa atualizar seu site de qualquer lugar e em qualquer dispositivo, sem a necessidade de uma equipe técnica para isso.'
 	}
 })
