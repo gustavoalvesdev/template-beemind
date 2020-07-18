@@ -1,0 +1,37 @@
+.contato {
+    padding: 30px 0;
+    .container { text-align: center; }
+    form {
+        max-width: 600px;
+        margin: 50px auto;
+        .input-wrapper:last-child { text-align: center; }
+    }
+    .input-wrapper {
+        float: left;
+        padding: 10px;
+        margin-top: 7px;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=tel] {
+        width: 100%;
+        border: 1px solid #ccc;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 15px;
+    }
+    textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        height: 120px;
+        padding: 8px;
+        resize: none;
+    }
+    .btn-contato {
+        border: 0;
+        padding: 10px;
+        width: 100%;
+        margin-top: 0;
+        cursor: pointer;
+    }
+}
